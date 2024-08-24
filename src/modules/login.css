@@ -1,0 +1,39 @@
+.btn-color {
+  background-color: #3c3c3c;
+  color: white;
+}
+.blue-text {
+  color: #587fff;
+}
+.border-color {
+  border: 1px solid #3c3c3c;
+  border-radius: 0;
+}
+.form-border {
+  border: none; /* Remove border */
+  box-shadow: none;
+}
+.icon-Size {
+  font-size: "8rem";
+}
+.custom-hr {
+  width: 20%; /* Full width of the container */
+  border: 0; /* Remove default border */
+  border-top: 1px solid black; /* Add a solid border at the top */
+  margin: 1rem 0; /* Adjust margins as needed */
+  align-items: center;
+}
+.small-img {
+  width: 100px;
+  height: 25px;
+}
+
+.error {
+  color: red;
+}
+
+.custom-text-left {
+  text-align: left;
+}
+
+
