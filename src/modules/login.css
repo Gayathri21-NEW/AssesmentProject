@@ -10,11 +10,11 @@
   border-radius: 0;
 }
 .form-border {
-  border: none; /* Remove border */
+  border: white; /* Remove border */
   box-shadow: none;
 }
 .icon-Size {
-  font-size: "8rem";
+  font-size: "10rem";
 }
 .custom-hr {
   width: 20%; /* Full width of the container */

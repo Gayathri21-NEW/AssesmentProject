@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "bootstrap/dist/css/bootstrap.min.css"; 
+import "bootstrap/dist/css/bootstrap.min.css";
 import Man from "../assets/man.png";
 import "./login.css";
 import { useNavigate } from "react-router-dom";
@@ -44,8 +44,6 @@ function Login() {
     } else {
       setErrors(validationErrors); // Set errors to display on the form
     }
-
-   
   };
 
   const handleUsernameChange = (e) => {
@@ -76,7 +74,7 @@ function Login() {
         <div className="col-md-2"></div>
         {/* Login Form Column */}
         <div className="col-md-4 d-flex justify-content-center align-items-center">
-          <div className="card p-4" style={{ width: "100%" }}>
+          <div className="card p-4" style={{ width: "100%",border: "none" }}>
             <h4 className="card-title mb-4 font-weight-[700px">Sign In</h4>
             <div className="row align-item-center">
               <div className="col">
@@ -86,8 +84,12 @@ function Login() {
               </div>
             </div>
             <br />
-            <form onSubmit={handleSubmit} className="form-border">
-              <div className="mb-3">
+            <form
+              onSubmit={handleSubmit}
+              className="form-border"
+              style={{ border: "none" }}
+            >
+              <div className="mb-3" style={{ border: "none" }}>
                 <label htmlFor="username" className="form-label">
                   Username
                 </label>

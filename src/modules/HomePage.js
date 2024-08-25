@@ -69,14 +69,14 @@ function HomePage() {
         )}
       </div>
       <br />
-      <div className="d-flex justify-content-center g-2 fontsize-large mt-4">
-        <hr className="custom-hr" />
+      <div className="d-flex justify-content-center g-3 fontsize-large mt-4 mb-4">
+       
         &nbsp;&nbsp;
         <i class="bi bi-google icon-Size"></i>&nbsp;&nbsp;
         <i class="bi bi-facebook"></i>&nbsp;&nbsp;
         <i class="bi bi-linkedin"></i>&nbsp;&nbsp;
         <i class="bi bi-twitter"></i>&nbsp;&nbsp;
-        {/* <hr> */} <hr className="custom-hr" />
+      
       </div>
     </div>
   );
